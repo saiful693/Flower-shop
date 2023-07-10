@@ -125,17 +125,47 @@
     border-radius: 2px;
     background: rgba(39, 39, 39, 0.05);
 }
-.icon-div{
+
+.icon-div {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
-.icon-desc{
+
+.icon-desc {
     padding-top: 10px;
-color: rgba(39, 39, 39, 0.80);
-text-align: center;
-font-size: 24px;
-padding-top: 5px;
-font-weight: 600;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+/* hot deals section */
+.deals-container {
+    display: flex;
+    gap: 50px;
+    height: 620px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.red {
+    color: red;
+    margin-left: 5px;
+}
+
+.hot-title {
+    padding: 15px;
+    color: #272727;
+    
+}
+
+.deals-button{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
