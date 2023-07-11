@@ -269,3 +269,35 @@ li {
     font-size: 16px;
     font-weight: 400;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111010;
+    height: 45vh;
+}
+
+.footer-content {
+    color: white;
+}
+
+.flower {
+    color: #E55473;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copy-right {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
